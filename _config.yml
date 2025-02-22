@@ -1,17 +1,17 @@
 # Jekyll configuration
 
-name: Blog Name
-description: Software Developer
+name: CodeNotes
+description: System Engineer
 
 # Url is currently only used only for the RSS feed in feed.xml
-url: http://streetturtle.github.io
+url: https://kr-sew.github.io/CodeNotes/
 #url: http://localhost:4000
 
 # For a project page here should be a project name. Otherwise (for user's/organization's page leave it empty)
-baseurl: '/jekyll-clean-dark'
+baseurl: '/codenotes'
 
-author: Pavel Makhov
-copyright: 2015-2018
+author: Andrei Karasev
+copyright: 2024-2025
 
 share:
   facebook: true

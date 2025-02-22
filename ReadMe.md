@@ -1,26 +1,71 @@
-# devAid **Jekyll** Theme
+Jekyll Clean Dark
+============
 
 <p align="center">
-  <img src="images/devaid_cover.png">
+   <img alt="GitHub stars" src="https://img.shields.io/github/stars/streetturtle/jekyll-clean-dark">
+   <img alt="GitHub forks" src="https://img.shields.io/github/forks/streetturtle/jekyll-clean-dark">
+ <img alt="Twitter URL" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fstreetturtle%2Fjekyll-clean-dark">
 </p>
 
-[devAid](https://github.com/xriley/devAid-Theme) theme from [Xiaoying Riley](http://xiaoyingriley.com/), adopted to Jekyll
+Dark and Clean Jekyll theme which is easy to customize!
 
-early stage, pls open issue if you need any updates
+* Get it from [github](https://github.com/streetturtle/jekyll-clean-dark).
+* See the [live demo](http://pavelmakhov.com/jekyll-clean-dark).
+* See it [in action on my own blog](http://pavelmakhov.com).
+* Easily [customizable](http://pavelmakhov.com/jekyll-clean-dark/2016/09/customizations)
 
-### Installing
+![preview1](./assets/images/preview1.jpg)
+![preview2](./assets/images/preview2.jpg)
+![preview3](./assets/images/preview3.jpg)
 
-Install [Jekyll](https://jekyllrb.com/) if you haven't already.
+This theme uses some parts of Twitter Bootstrap, which allows it to look nice on a mobile devices using a collapsable nav bar and hiding the
+sidebar.
 
-1. Either clone this repo onto your computer, or download a package (tar or .zip) and un-pack it.
-2. From `/devaid-jekyll-theme`, or the site's root directory run `jekyll serve`.
+Some cool features:
 
-A Jekyll server will be run locally so that you can see your site.
+ - [Disqus](http://disqus.com) as a comments system;
+ - [Google Analytics](http://www.google.com/analytics/);
+ - [Yandex Metrica](http://metrica.yandex.com);
+ - Blog tags - check the section below;
+ - [Share buttons](http://pavelmakhov.com/jekyll-clean-dark/2016/09/be-social);
+ - [Table Of Content](http://pavelmakhov.com/jekyll-clean-dark/2018/08/table-of-content);
+ - Bootstrap 4 and FontAwesome 5!
+ - [Stats page](http://pavelmakhov.com/jekyll-clean-dark/stats) - WIP
 
-### Download
+All these features could be set up in `_config.yml`. Also you can have social icons which could lead to your social profiles. It uses [font-awesome](http://fontawesome.io/), so you can have any icon you want to any social profile. Out-of-the box it has: LinkedIn, GitHub, StackOverflow, LastFm, Instagram. And you can easily add more by adding new style in `theme.css` and setting it in `_config.yml`.
 
-[Download Tar Package](https://github.com/kevit/devaid-jekyll-theme/blob/master/archive.tar.bz2), or [get .zip package](https://github.com/thundergolfer/devaid-jekyll-theme/archive/master.zip)
+Installation
+============
 
-## License
+If you don't have your own blog you can clone this repository and put your articles in a `_posts` folder.
+If you already have your own blog then I think you can clone this repository and copy-paste content keeping your `_posts` folder.
 
-Please follow the license agreement for your projects https://themes.3rdwavemedia.com/bootstrap-templates/startup/devaid-free-bootstrap-theme-for-developers-side-projects/
+After you will have to set up your `_config.yml`
+
+I tried to setup gem installation, but it doesn't work well as theme has many customizations. So I wouldn't recommend to use gem.
+ 
+Blog tags
+=========
+
+To use this feature you simply will need to create a markdown file for each tag which you are using in you site in **tag** folder. To simplify this procedure there is an [/admin](http://pavelmakhov.com/jekyll-clean-dark/admin.html) page, which outputs the bash command which you just need to run inside **tag** folder of your site. Also don't forget to rerun it when you add a post with new tag.
+
+License
+=======
+
+The content of this theme is distributed and licensed under a
+[Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode)
+
+    This license lets others distribute, remix, tweak, and build upon your work,
+    even commercially, as long as they credit you for the original creation. This
+    is the most accommodating of licenses offered. Recommended for maximum
+    dissemination and use of licensed materials.
+
+In other words: you can do anything you want with this theme on any site, just please
+provide a link to the original theme on github.
+
+This theme includes the following files which are the properties of their
+respective owners:
+
+* js/bootstrap.min.js - [bootstrap](http://getbootstrap.com)
+* css/bootstrap.min.css - [bootstrap](http://getbootstrap.com)
+* js/jquery.min.js - [jquery](https://jquery.com)

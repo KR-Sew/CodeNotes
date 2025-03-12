@@ -65,7 +65,3 @@ provide a link to the original theme on github.
 
 This theme includes the following files which are the properties of their
 respective owners:
-
-* js/bootstrap.min.js - [bootstrap](http://getbootstrap.com)
-* css/bootstrap.min.css - [bootstrap](http://getbootstrap.com)
-* js/jquery.min.js - [jquery](https://jquery.com)
